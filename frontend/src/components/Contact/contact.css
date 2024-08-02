@@ -1,0 +1,117 @@
+/* Overall page styling */
+.contact {
+    padding: 60px 0;
+    
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+    
+        background-image: url('../../assets/blue.png');
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        width: 100%;
+      
+  }
+  
+  .contact h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    color: #666;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #333;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 30px !important;
+    background-color:#555 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    /* background-color: #555; */
+    transform: scale(1.05);
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.9em;
+    }
+  
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+  }
+  
